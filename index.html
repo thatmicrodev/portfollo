@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>thatmicrodev</title>
+<meta name="description" content="thatmicrodev — student and hobbyist building small things with the BBC micro:bit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <nav class="top-nav">
+    <span class="prompt">$</span>
+    <!-- point this at your GitHub Pages projects site -->
+    <a href="https://thatmicrodev.github.io/microbit/">cd ./projects</a>
+  </nav>
+
+  <main>
+
+    <!-- ============ terminal hero ============ -->
+    <section class="term-window" aria-label="Introduction">
+      <div class="term-bar">
+        <span class="term-dot dot-red"></span>
+        <span class="term-dot dot-yellow"></span>
+        <span class="term-dot dot-green"></span>
+        <span class="term-title">thatmicrodev — zsh</span>
+      </div>
+      <div class="term-body">
+        <p class="term-line"><span class="prompt">$</span> whoami</p>
+        <p class="term-out">thatmicrodev</p>
+        <p class="term-line"><span class="prompt">$</span> status --current</p>
+        <p class="term-out">building small things for the BBC micro:bit<span class="cursor" aria-hidden="true"></span></p>
+      </div>
+    </section>
+
+    <!-- ============ about ============ -->
+    <section class="block">
+      <p class="comment">// 01 — about</p>
+      <p class="body-text">
+        I'm a student who got a BBC micro:bit and never really stopped
+        poking at it. Most of what I make starts as a dumb little idea —
+        "what if this blinked when that happened" — and turns into a
+        real, finished project by the time I'm done overthinking it.
+      </p>
+      <p class="body-text">
+        I'm not classically trained in any of this. I read docs, break
+        things, read the docs again, and slowly figure out how the board
+        actually works. Everything on this site is the result of that
+        loop — nothing fancy, just built and shipped.
+      </p>
+    </section>
+
+    <!-- ============ what i build ============ -->
+    <section class="block">
+      <p class="comment">// 02 — what i build</p>
+      <ul class="build-list">
+        <li>
+          <span class="arrow">-&gt;</span>
+          <div>
+            <p class="build-title">games</p>
+            <p class="build-desc">small, self-contained, playable in under a minute — built for a 5&times;5 grid and two buttons.</p>
+          </div>
+        </li>
+        <li>
+          <span class="arrow">-&gt;</span>
+          <div>
+            <p class="build-title">sensors &amp; tools</p>
+            <p class="build-desc">reaction timers, step counters, anything that turns the board's accelerometer or radio into something useful.</p>
+          </div>
+        </li>
+        <li>
+          <span class="arrow">-&gt;</span>
+          <div>
+            <p class="build-title">experiments</p>
+            <p class="build-desc">whatever I'm currently curious about — half of these never get "finished," and that's fine.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============ stack ============ -->
+    <section class="block">
+      <p class="comment">// 03 — stack.json</p>
+      <pre class="code-block"><code><span class="punc">{</span>
+  <span class="key">"board"</span><span class="punc">:</span> <span class="str">"BBC micro:bit v2"</span><span class="punc">,</span>
+  <span class="key">"languages"</span><span class="punc">:</span> <span class="punc">[</span><span class="str">"MakeCode"</span><span class="punc">,</span> <span class="str">"MicroPython"</span><span class="punc">]</span><span class="punc">,</span>
+  <span class="key">"hosting"</span><span class="punc">:</span> <span class="str">"GitHub Pages"</span><span class="punc">,</span>
+  <span class="key">"status"</span><span class="punc">:</span> <span class="str">"still learning"</span>
+<span class="punc">}</span></code></pre>
+    </section>
+
+    <!-- ============ currently ============ -->
+    <section class="block callout">
+      <p class="comment">// 04 — currently</p>
+      <p class="body-text">Every project I've shipped is live and downloadable on the projects site — new ones land there first.</p>
+      <a class="btn" href="https://thatmicrodev.github.io/microbit/">./view-projects &rarr;</a>
+    </section>
+
+    <!-- ============ find me ============ -->
+    <section class="block">
+      <p class="comment">// 05 — find me</p>
+      <ul class="link-list">
+        <li><span class="prompt">$</span> open <a href="https://github.com/thatmicrodev" target="_blank" rel="noopener noreferrer">github</a></li>
+
+        <!--
+          To add another link, copy the line below into the list above
+          and fill in the label + URL:
+
+          <li><span class="prompt">$</span> open <a href="https://your-link-here" target="_blank" rel="noopener noreferrer">discord</a></li>
+        -->
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p><span class="prompt">$</span> exit</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
